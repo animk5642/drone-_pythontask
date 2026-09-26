@@ -1,0 +1,8 @@
+'''a dictionaries is a key
+ value pair in pythion'''
+
+a = {"anirudh": "assembly_tecnincain"
+     ,"devadarshan":"drone lead",
+       "akash":"embeded_engineer"}
+
+print(a)
