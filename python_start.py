@@ -1,39 +1,40 @@
 
-# a = 10
+# # a = 10
 
-# d = True
+# # d = True
 
-# c = True
+# # c = True
 
-# print(d and c)
+# # print(d and c)
 
-# print(a)
+# # print(a)
 
-h = "Anirudh"
+# h = "Anirudh"
 
-print(h)
+# print(h)
 
-#type casting in python
+# #type casting in python
 
-num1 = 10
-num2 = 3
+# num1 = 10
+# num2 = 3
 
-print("The number is num1 + num2",num1 + num2)
-print("The number is num1 * num2",num1 * num2)
-print("The number is num1 / num2",num1 / num2)
-print("The number is num1 % num2",num1 // num2)
-print("The number is num1 ** num2",num1 ** num2)
+# print("The number is num1 + num2",num1 + num2)
+# print("The number is num1 * num2",num1 * num2)
+# print("The number is num1 / num2",num1 / num2)
+# print("The number is num1 % num2",num1 // num2)
+# print("The number is num1 ** num2",num1 ** num2)
 
-print(num1>num2)
+# print(num1>num2)
 
-print(num1<num2)
+# print(num1<num2)
 
-print(num1==num2)
+# print(num1==num2)
 
-print(num1!=num2)
-print(num1==num2)
-
-
+# print(num1!=num2)
+# print(num1==num2)
 
 
 
+
+Bonus = 0
+print(type(Bonus))
