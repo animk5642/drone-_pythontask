@@ -35,7 +35,7 @@ for key,value in checks.items():
          Bonus +=  1
       else:
         failed.append(key)
-    if key == "motors":
+    if key == "motors":     
      if value == True:
       Bonus +=  1
      else:
@@ -54,4 +54,4 @@ else:
     # print(Bonus) 
     print("CHECK FAILED - DO NOT FLY")
     # print(f"Failed checks: {failed}")
-    print(f"Failed checks: {failed}")
+    print(f"Failed checks: {failed}")git 

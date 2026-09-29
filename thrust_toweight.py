@@ -11,3 +11,4 @@ ratio = total_motor_thrust/int(weight_total)
 
 
 print(f"the ratio is {ratio:.2f}")
+=
