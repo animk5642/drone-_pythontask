@@ -20,9 +20,25 @@ d1 = Drone("Alpha")
 d2 = Drone("Bravo")
 
 d1.check_battery()
-d2.check_battery()
+d2.check_battery() 
 
 d1.takeoff()
 d2.takeoff()
 d1.land()
-d2.land()
+
+d2.land() 
+
+class Sensor:
+  def __init__(self, name):
+    self.name = name
+    self.readings = []
+  def add_reading(self,value):
+    self.readings.append(value)
+
+  def get_max(self):
+    max = self.readings[0]
+    for item in self.readings:
+      if item > max:
+        max = item
+      
+   

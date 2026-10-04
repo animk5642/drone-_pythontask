@@ -19,8 +19,8 @@ except FileNotFoundError:
   print("the file not found")
 
 
-# print(f"the sum of the time is {total_time}")
-
+print(f"the sum of the time is {total_time}")
+print("")
 
   
 

@@ -6,4 +6,7 @@ def read_flight_log(filename):
   except FileNotFoundError:
     return "the file not found"
 
+print("What")
 print(read_flight_log(input("enter the file name")))
+
+print("")
