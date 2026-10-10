@@ -6,7 +6,7 @@ aruco_params = cv2.aruco.DetectorParameters()
 detector = cv2.aruco.ArucoDetector(aruco_dict, aruco_params)
 
 # Open webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 
 while True:
     ret, frame = cap.read()
@@ -22,7 +22,7 @@ while True:
 
 
         # print(corners[0][0])        # Get center of first marker
-        c = corners[0][1]
+        c = corners[0][0]
         center_x = int((c[0][0] + c[2][0]) / 2)
         center_y = int((c[0][1] + c[2][1]) / 2)
         
